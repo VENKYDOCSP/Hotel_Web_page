@@ -1,0 +1,18 @@
+
+
+body{
+    margin: 0px;
+    font-family: 'Lobster', cursive;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab', serif;
+}
+
+.footer{
+    background-color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,110 @@
+.features-portion{
+    background-image: url(../images/fries-multiply-bg.jpg);
+    background-color: #cea135;
+    height: 400px;
+    color: #11122b ;
+    border-top: 10px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    align-items: center;
+}
+
+.column-warpper{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column{
+    padding: 20px;
+    text-align: center;
+    margin: 42px;
+    border-bottom: 5px solid transparent;
+    border-radius:10px ;
+    transition: 1s;
+}
+
+.column:hover{
+    border-bottom: 5px solid #11122b;
+    
+}
+
+.column :nth-child(1){
+    font-size: 3em;
+}
+
+.column :nth-child(2){
+    font-size: 1.4em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+
+.column :nth-child(2):hover{
+    letter-spacing: 0.5px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:5s;
+    font-size: 30px;
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons a:hover{
+    color:#cea135;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link .nav-link{
+    width: 90px;
+    text-align:center;
+}
+
+.logo img{
+    opacity: 0.5;
+}
+
+.address span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 200px;
+    
+}
+
+.number{
+    padding:20px;
+}
+
+.link{
+    padding-top: 20px;
+}
+
+.header > .icons{
+    padding-top: 20px;
+    width: 50px;
+}
